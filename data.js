@@ -1,0 +1,17 @@
+module.exports[
+    {
+        id:1,
+        isim:"ahmetdeneme",
+        filmler:["kurtlarvadisi","denemefilm1","denemefilm1"]
+    },
+    {
+        id:2,
+        isim:"mustafadeneme",
+        filmler:["pusuvadi","film3","film4"]
+    },
+    {
+        id:3,
+        isim:"emredeneme",
+        filmler:["arkasokaklar","test11","test99"]
+    }
+];

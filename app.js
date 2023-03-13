@@ -57,25 +57,25 @@
     // bu böüm expres denemessi olacak
 
 
-const express =require("express");
-const app = express();
-// routs yapısı (önemli)
-app.use("/urunler11/:id" ,function(req,res){
-    res.send("urunler11 id :" + req.params.id);
-    res.send();
-});
+// const express =require("express");
+// const app = express();
+// // routs yapısı (önemli)
+// app.use("/urunler11/:id" ,function(req,res){
+//     res.send("urunler11 id :" + req.params.id);
+//     res.send();
+// });
 
-app.use("/urunler" ,function(req,res){
-    res.send("urunler");
-});
+// app.use("/urunler" ,function(req,res){
+//     res.send("urunler");
+// });
 
-app.use("/" ,function(req,res){
-    res.send("anasayfa");
-});
-
-
+// app.use("/" ,function(req,res){
+//     res.send("anasayfa");
+// });
 
 
-app.listen(3000, () =>{
-    console.log("listinig on porst 3000");
-});
+
+
+// app.listen(3000, () =>{
+//     console.log("listinig on porst 3000");
+// });
