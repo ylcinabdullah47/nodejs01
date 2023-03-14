@@ -8,7 +8,7 @@
  const data =require('./data.js');
 
  server.get("/" ,(req,res) =>{
-    res.send("express selam")
+    res.send("express selammmmmmmmmm")
    
  });
 
