@@ -1,5 +1,6 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
+const jwtMıdlleware = require('./jwtMıdlleware');
 const app = express();
 const router = express.Router();
 app.use(express.json())
@@ -32,7 +33,7 @@ router.get('/users',(req,res)=>{
 })
 
 
-
+app.use(jwtMıdlleware)
 app.use(router)
 app.listen(5002,()=>{
     console.log("5002 portu çalışıyor");
