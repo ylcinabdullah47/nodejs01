@@ -8,4 +8,4 @@ client.connect(url,(err,db)=>{
     mydb.createCollection('deneme').then((r)=>{
         console.log('r',r);
     })
-})
+})  
