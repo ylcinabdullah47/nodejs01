@@ -1,5 +1,5 @@
 const{connectMongoDB}=require('./db')
-const{Animal}=require('./animal')
+// const{Animal}=require('./animal')
 
 connectMongoDB();
 Animal();
